@@ -22,15 +22,13 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev:build-server": "SET NODE_ENV=development webpack --config webpack.server.js --mode=development -w",
     "dev:start": "nodemon ./server-build/index.js",
-    "dev": "npm-run-all --parallel build dev:*",
-
-    "start": "node build/bundle.js",
-    "build": "webpack --config webpack.client.js & webpack --config webpack.server.js",
-    "build:start": "webpack --config webpack.client.js && webpack --config webpack.server.js && node build/bundle.js"
+    "dev": "npm-run-all --parallel build dev:*"
   },
   "eslintConfig": {
     "extends": [
