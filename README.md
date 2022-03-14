@@ -1,6 +1,11 @@
 # Fantastic-Movies
 Browse movies from the TMDB Api on this SSR React application, submit details to create a Trello Card using the Trello API.
 
+## User flow
+- Click on Popular Movies to view the movies pulled from the TMDB API
+- Scroll to the end to make a 2nd call to the TMDB API to view more movies
+- You can submit your details after clicking on a movie and filling out the fields to make a Trello Card
+
 ## Built using
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
